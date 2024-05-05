@@ -9,6 +9,7 @@ const Footer = () => {
           href="https://github.com/EdwilleBaez"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icon before:content-['Github'] relative"
         >
           <FaGithub />
         </a>
@@ -16,6 +17,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/edwillebaez/"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icon before:content-['Linkedin'] relative"
         >
           <FaLinkedinIn />
         </a>
@@ -23,6 +25,7 @@ const Footer = () => {
           href="mailto:baezedwille@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icon before:content-['Email'] relative"
         >
           <MdMailOutline />
         </a>

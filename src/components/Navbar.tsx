@@ -59,6 +59,7 @@ const Navbar = () => {
                   href="https://github.com/EdwilleBaez"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="navbar-icon before:content-['Github'] relative"
                 >
                   <FaGithub />
                 </a>
@@ -66,6 +67,7 @@ const Navbar = () => {
                   href="https://www.linkedin.com/in/edwillebaez/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="navbar-icon before:content-['Linkedin'] relative"
                 >
                   <FaLinkedinIn />
                 </a>

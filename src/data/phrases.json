@@ -1,0 +1,734 @@
+[
+  {
+    "phrase": "El éxito es aprender a ir de fracaso en fracaso sin perder el entusiasmo.",
+    "author": "Winston Churchill"
+  },
+  {
+    "phrase": "La vida es lo que pasa mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "phrase": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "No te preocupes por los fracasos, preocúpate por las oportunidades que pierdes cuando ni siquiera lo intentas.",
+    "author": "Jack Canfield"
+  },
+  {
+    "phrase": "El único modo de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "No permitas que la vida te desanime; todo aquel que ha llegado a donde está ha tenido que empezar desde donde estaba.",
+    "author": "Richard L. Evans"
+  },
+  {
+    "phrase": "Las oportunidades no son producto de la casualidad, son resultado del trabajo.",
+    "author": "Alexandre Graham Bell"
+  },
+  {
+    "phrase": "El éxito es ir de fracaso en fracaso sin perder entusiasmo.",
+    "author": "Winston Churchill"
+  },
+  {
+    "phrase": "La mejor manera de predecir el futuro es crearlo.",
+    "author": "Peter Drucker"
+  },
+  {
+    "phrase": "Nunca, nunca, nunca, nunca, nunca te rindas.",
+    "author": "Winston Churchill"
+  },
+  {
+    "phrase": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "phrase": "Nuestra mayor debilidad radica en renunciar. La forma más segura de tener éxito es siempre intentarlo una vez más.",
+    "author": "Thomas Edison"
+  },
+  {
+    "phrase": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "phrase": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que estás haciendo, tendrás éxito.",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "phrase": "Los grandes logros nacen de grandes sacrificios y nunca son el resultado del egoísmo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "phrase": "La mejor manera de predecir el futuro es inventarlo.",
+    "author": "Alan Kay"
+  },
+  {
+    "phrase": "El éxito es encontrar satisfacción en dar un paso al frente, no en ganar cada batalla.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "phrase": "El secreto de la vida no es hacer lo que te gusta, sino que te guste lo que haces.",
+    "author": "Guru Nanak"
+  },
+  {
+    "phrase": "La vida es 10% lo que nos pasa y 90% cómo reaccionamos a ello.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "phrase": "El éxito no consiste en no caer nunca, sino en levantarse cada vez que caes.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "No dejes que tus miedos ocupen el lugar de tus sueños.",
+    "author": "Walt Disney"
+  },
+  {
+    "phrase": "El verdadero éxito no es vencer a los demás, sino conquistarse a uno mismo.",
+    "author": "Proverbio chino"
+  },
+  {
+    "phrase": "El mayor placer en la vida es hacer lo que la gente dice que no puedes hacer.",
+    "author": "Walter Bagehot"
+  },
+  {
+    "phrase": "Acepta los desafíos para que puedas sentir el dulce sabor de la victoria.",
+    "author": "George S. Patton"
+  },
+  {
+    "phrase": "La vida es una oportunidad, aprovéchala.",
+    "author": "Madre Teresa"
+  },
+  {
+    "phrase": "El fracaso es éxito si aprendemos de él.",
+    "author": "Malcolm Forbes"
+  },
+  {
+    "phrase": "La vida es corta, sonríe mientras todavía tienes dientes.",
+    "author": "Proverbio"
+  },
+  {
+    "phrase": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar.",
+    "author": "Winston Churchill"
+  },
+  {
+    "phrase": "El camino hacia el éxito y el camino hacia el fracaso son casi exactamente iguales.",
+    "author": "Colin R. Davis"
+  },
+  {
+    "phrase": "La única diferencia entre un día bueno y un día malo es tu actitud.",
+    "author": "Dennis S. Brown"
+  },
+  {
+    "phrase": "Un día sin reír es un día desperdiciado.",
+    "author": "Charles Chaplin"
+  },
+  {
+    "phrase": "La vida es como montar en bicicleta, para mantener el equilibrio hay que seguir adelante.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "El éxito no está en vencer siempre, sino en no desanimarse nunca.",
+    "author": "Napoleón Bonaparte"
+  },
+  {
+    "phrase": "Haz una cosa cada día que te dé miedo.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "phrase": "La diferencia entre un sueño y un objetivo es un plan.",
+    "author": "author desconocido"
+  },
+  {
+    "phrase": "No dejes que la persona que hace algo mal te quite las ganas de hacerlo bien.",
+    "author": "Anónimo"
+  },
+  {
+    "phrase": "La mente es como un paracaídas, solo funciona si se abre.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Sólo podemos ser felices ahora, y hay que darse cuenta de que el tiempo de vida es solo el momento presente.",
+    "author": "Anónimo"
+  },
+  {
+    "phrase": "La persona que nunca cometió un error nunca intentó nada nuevo.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "El pesimismo lleva a la debilidad, el optimismo al poder.",
+    "author": "William James"
+  },
+  {
+    "phrase": "No hay mal que por bien no venga.",
+    "author": "Proverbio"
+  },
+  {
+    "phrase": "No hay fracasos, sólo resultados.",
+    "author": "Proverbio"
+  },
+  {
+    "phrase": "Lo importante es no dejar de hacerse preguntas.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "La educación es lo que queda después de olvidar lo que se ha aprendido en la escuela.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "La alegría no es en tener todo, sino en hacer con lo que se tiene.",
+    "author": "Anónimo"
+  },
+  {
+    "phrase": "Lo que no te mata te hace más fuerte.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "phrase": "Nunca dejes que tus recuerdos sean más grandes que tus sueños.",
+    "author": "Doug Ivester"
+  },
+  {
+    "phrase": "Siempre es demasiado pronto para rendirse.",
+    "author": "Norman Vincent Peale"
+  },
+  {
+    "phrase": "La vida es 10% lo que te sucede y 90% cómo reaccionas ante ello.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "phrase": "Cuando te diriges hacia tus metas, te encuentras con la perseverancia, el sacrificio y el trabajo duro.",
+    "author": "Anónimo"
+  },
+  {
+    "phrase": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "phrase": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Nada es más peligroso que una idea cuando es la única que tenemos.",
+    "author": "Émile Chartier"
+  },
+  {
+    "phrase": "Los grandes espíritus siempre han encontrado violenta oposición de parte de mentes mediocres.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Nunca sabemos qué tipo de fuerza tenemos hasta que nos vemos obligados a probarla.",
+    "author": "Marilyn Monroe"
+  },
+  {
+    "phrase": "La vida es realmente simple, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "phrase": "La inteligencia consiste no sólo en el conocimiento, sino también en la destreza de aplicar el conocimiento en la práctica.",
+    "author": "Aristóteles"
+  },
+  {
+    "phrase": "Sé tú el cambio que quieres ver en el mundo.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "phrase": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "Una mente que se abre a una nueva idea, nunca vuelve a su tamaño original.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "La lógica te llevará de A a B. La imaginación te llevará a todas partes.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "No podemos resolver problemas pensando de la misma manera que cuando los creamos.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Sé el cambio que quieres ver en el mundo.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "phrase": "No importa lo lento que vayas siempre y cuando no te detengas.",
+    "author": "Confucio"
+  },
+  {
+    "phrase": "El camino hacia cualquier triunfo, en la vida y en los negocios, está plagado de desafíos.",
+    "author": "Richard Branson"
+  },
+  {
+    "phrase": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "phrase": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "phrase": "El conocimiento es poder.",
+    "author": "Francis Bacon"
+  },
+  {
+    "phrase": "El único modo de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "Cree en ti mismo y todo será posible.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "phrase": "No hay secretos para el éxito. Es el resultado de la preparación, el trabajo duro y el aprendizaje del fracaso.",
+    "author": "Colin Powell"
+  },
+  {
+    "phrase": "La mejor manera de predecir el futuro es inventarlo.",
+    "author": "Alan Kay"
+  },
+  {
+    "phrase": "Si sueñas solo es solo un sueño, si sueñas con alguien más, es una realidad.",
+    "author": "Yoko Ono"
+  },
+  {
+    "phrase": "El éxito es el resultado de la perfección, el trabajo duro, el aprendizaje del fracaso, la lealtad y la persistencia.",
+    "author": "Colin Powell"
+  },
+  {
+    "phrase": "La adversidad es la madre del progreso.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "phrase": "A veces las preguntas son complicadas y las respuestas son simples.",
+    "author": "Dr. Seuss"
+  },
+  {
+    "phrase": "El único modo de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "No tengo talentos especiales, pero sí soy profundamente curioso.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "La educación es el pasaporte hacia el futuro, el mañana pertenece a aquellos que se preparan para él hoy.",
+    "author": "Malcolm X"
+  },
+  {
+    "phrase": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "Los límites de mi idioma son los límites de mi mundo.",
+    "author": "Ludwig Wittgenstein"
+  },
+  {
+    "phrase": "Cuanto más difícil es la victoria, mayor es la felicidad de ganar.",
+    "author": "Pelé"
+  },
+  {
+    "phrase": "La sabiduría es saber qué hacer. La habilidad es saber cómo hacerlo. La virtud es hacerlo.",
+    "author": "David Starr Jordan"
+  },
+  {
+    "phrase": "El hombre que tiene confianza en sí mismo obtendrá la confianza de los demás.",
+    "author": "Lao Tzu"
+  },
+  {
+    "phrase": "Todo el mundo tiene talento. Es solo cuestión de sacarlo a la luz.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Nunca te rindas en algo que realmente quieres. Es difícil de esperar, pero es más difícil arrepentirse.",
+    "author": "Jim Valvano"
+  },
+  {
+    "phrase": "La mejor venganza es un éxito masivo.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "phrase": "Siempre parece imposible hasta que se hace.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Seneca"
+  },
+  {
+    "phrase": "Si tienes un sueño, debes protegerlo.",
+    "author": "Chris Gardner"
+  },
+  {
+    "phrase": "La vida es 10% lo que te sucede y 90% cómo reaccionas ante ello.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "phrase": "El futuro pertenece a aquellos que creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "phrase": "El éxito no se mide por lo que logras, sino por los obstáculos que superas.",
+    "author": "Booker T. Washington"
+  },
+  {
+    "phrase": "Un líder es uno que sabe el camino, va por el camino y muestra el camino.",
+    "author": "John C. Maxwell"
+  },
+  {
+    "phrase": "La verdadera medida de un hombre no se encuentra en la forma en que se comporta en momentos de comodidad y conveniencia, sino en la forma en que se mantiene en tiempos de desafío y controversia.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "phrase": "La vida es lo que hacemos con lo que tenemos.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "phrase": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito.",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "phrase": "No esperes. El momento nunca será el adecuado.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "phrase": "Tu tiempo es limitado, así que no lo malgastes viviendo la vida de otra persona.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "Cambia tus pensamientos y cambiarás tu mundo.",
+    "author": "Norman Vincent Peale"
+  },
+  {
+    "phrase": "No te arrepientas de las cosas que hiciste. Arrepiéntete de las cosas que no hiciste cuando tuviste la oportunidad.",
+    "author": "Gretchen Rubin"
+  },
+  {
+    "phrase": "La educación es la clave para desbloquear el mundo, una llave para la libertad.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "phrase": "Nunca dejes que tus recuerdos sean más grandes que tus sueños.",
+    "author": "Doug Ivester"
+  },
+  {
+    "phrase": "Vas a llegar muy lejos.",
+    "author": "Nathaniel Branden"
+  },
+  {
+    "phrase": "Nunca pares de aprender, porque la vida nunca deja de enseñar.",
+    "author": "Anónimo"
+  },
+  {
+    "phrase": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "No hay secretos para el éxito. Es el resultado de la preparación, el trabajo duro y el aprendizaje del fracaso.",
+    "author": "Colin Powell"
+  },
+  {
+    "phrase": "El futuro pertenece a aquellos que creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "phrase": "La verdadera medida de un hombre no se encuentra en la forma en que se comporta en momentos de comodidad y conveniencia, sino en la forma en que se mantiene en tiempos de desafío y controversia.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "phrase": "El éxito no se mide por lo que logras, sino por los obstáculos que superas.",
+    "author": "Booker T. Washington"
+  },
+  {
+    "phrase": "La vida es una serie de colisiones con el futuro; no es una suma de lo que hemos sido, sino de lo que anhelamos ser.",
+    "author": "José Ortega y Gasset"
+  },
+  {
+    "phrase": "La felicidad no es algo que se pospone para el futuro; es algo que diseñas para el presente.",
+    "author": "Jim Rohn"
+  },
+  {
+    "phrase": "La diferencia entre el genio y la estupidez es que el genio tiene límites.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "La única manera de hacer un trabajo genial es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "La educación es el pasaporte hacia el futuro, el mañana pertenece a aquellos que se preparan para él hoy.",
+    "author": "Malcolm X"
+  },
+  {
+    "phrase": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "La educación es el principal motor del desarrollo personal. Es a través de la educación que la hija de un campesino puede convertirse en médica, el hijo de un minero puede convertirse en jefe de minas, o un hijo de trabajadores agrícolas puede convertirse en presidente de una gran nación.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "La vida es 10% lo que te sucede y 90% cómo reaccionas ante ello.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "phrase": "El éxito es un 99% fracaso.",
+    "author": "Soichiro Honda"
+  },
+  {
+    "phrase": "La lógica te llevará de la A a la Z; la imaginación te llevará a cualquier parte.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Siempre parece imposible hasta que se hace.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "La vida es una serie de colisiones con el futuro; no es una suma de lo que hemos sido, sino de lo que anhelamos ser.",
+    "author": "José Ortega y Gasset"
+  },
+  {
+    "phrase": "Nunca dejes que el miedo a perder te impida jugar.",
+    "author": "Babe Ruth"
+  },
+  {
+    "phrase": "La vida no es cuestión de esperar a que pase la tormenta, sino de aprender a bailar bajo la lluvia.",
+    "author": "Vivian Greene"
+  },
+  {
+    "phrase": "Cada día es una oportunidad para cambiar tu vida.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "phrase": "Haz lo que puedas, con lo que tengas, donde estés.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "phrase": "El viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tzu"
+  },
+  {
+    "phrase": "Una mente que se abre a una nueva idea jamás volverá a su tamaño original.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "El momento en que te sientes completamente exhausto es el momento en que realmente comienzas a crecer.",
+    "author": "Arnold Schwarzenegger"
+  },
+  {
+    "phrase": "Aquellos que no se arriesgan a ir demasiado lejos, nunca llegarán lejos.",
+    "author": "T.S. Eliot"
+  },
+  {
+    "phrase": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "phrase": "A veces las preguntas son complicadas y las respuestas son simples.",
+    "author": "Dr. Seuss"
+  },
+  {
+    "phrase": "La mejor venganza es un éxito masivo.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "phrase": "Cuando te arriesgas pierdes la oportunidad de ganar.",
+    "author": "Anonymous"
+  },
+  {
+    "phrase": "Todo lo que puedas imaginar es real.",
+    "author": "Pablo Picasso"
+  },
+  {
+    "phrase": "Aquellos que no creen en la magia nunca la encontrarán.",
+    "author": "Roald Dahl"
+  },
+  {
+    "phrase": "Hazlo o no lo hagas, pero no lo intentes.",
+    "author": "Yoda"
+  },
+  {
+    "phrase": "Nada es imposible, la palabra misma dice 'soy posible'.",
+    "author": "Audrey Hepburn"
+  },
+  {
+    "phrase": "La vida es un viaje, no un destino.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "phrase": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "phrase": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "Nunca he conocido a un hombre tan ignorante que no pudiera aprender algo de él.",
+    "author": "Galileo Galilei"
+  },
+  {
+    "phrase": "No dejes que ayer tome demasiado de hoy.",
+    "author": "Will Rogers"
+  },
+  {
+    "phrase": "La vida es un juego, juégalo.",
+    "author": "Mahtma Gandhi"
+  },
+  {
+    "phrase": "El primer paso hacia el éxito es creer en uno mismo.",
+    "author": "Willie Nelson"
+  },
+  {
+    "phrase": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "phrase": "La educación es el pasaporte hacia el futuro, el mañana pertenece a aquellos que se preparan para él hoy.",
+    "author": "Malcolm X"
+  },
+  {
+    "phrase": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "Los límites de mi idioma son los límites de mi mundo.",
+    "author": "Ludwig Wittgenstein"
+  },
+  {
+    "phrase": "Cuanto más difícil es la victoria, mayor es la felicidad de ganar.",
+    "author": "Pelé"
+  },
+  {
+    "phrase": "La sabiduría es saber qué hacer. La habilidad es saber cómo hacerlo. La virtud es hacerlo.",
+    "author": "David Starr Jordan"
+  },
+  {
+    "phrase": "El hombre que tiene confianza en sí mismo obtendrá la confianza de los demás.",
+    "author": "Lao Tzu"
+  },
+  {
+    "phrase": "Todo el mundo tiene talento. Es solo cuestión de sacarlo a la luz.",
+    "author": "Albert Einstein"
+  },
+  {
+    "phrase": "Nunca te rindas en algo que realmente quieres. Es difícil de esperar, pero es más difícil arrepentirse.",
+    "author": "Jim Valvano"
+  },
+  {
+    "phrase": "La mejor venganza es un éxito masivo.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "phrase": "Siempre parece imposible hasta que se hace.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "phrase": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Seneca"
+  },
+  {
+    "phrase": "Si tienes un sueño, debes protegerlo.",
+    "author": "Chris Gardner"
+  },
+  {
+    "phrase": "La vida es 10% lo que te sucede y 90% cómo reaccionas ante ello.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "phrase": "El futuro pertenece a aquellos que creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "phrase": "El éxito no se mide por lo que logras, sino por los obstáculos que superas.",
+    "author": "Booker T. Washington"
+  },
+  {
+    "phrase": "La vida es lo que hacemos con lo que tenemos.",
+    "author": "Víctor Hugo"
+  },
+  {
+    "phrase": "Nunca dejes que el miedo a perder te impida jugar.",
+    "author": "Babe Ruth"
+  },
+  {
+    "phrase": "Conócete a ti mismo.",
+    "author": "Sócrates"
+},
+{
+    "phrase": "La felicidad es alcanzada cuando lo que uno piensa, lo que uno dice y lo que uno hace están en armonía.",
+    "author": "Mahatma Gandhi"
+},
+{
+    "phrase": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+},
+{
+    "phrase": "La vida no examinada no vale la pena vivirla.",
+    "author": "Sócrates"
+},
+{
+    "phrase": "El ignorante afirma, el sabio duda y reflexiona.",
+    "author": "Aristóteles"
+},
+{
+    "phrase": "El único conocimiento verdadero es saber que no sabes nada.",
+    "author": "Sócrates"
+},
+{
+    "phrase": "La mente es todo; lo que piensas, te conviertes.",
+    "author": "Buda"
+},
+{
+    "phrase": "Lo que no me mata me hace más fuerte.",
+    "author": "Friedrich Nietzsche"
+},
+{
+    "phrase": "El secreto de la felicidad no es hacer siempre lo que se quiere, sino querer siempre lo que se hace.",
+    "author": "León Tolstói"
+},
+{
+    "phrase": "El único modo de vencer en una discusión es evitarla.",
+    "author": "Dale Carnegie"
+},
+{
+  "phrase": "No hay nada como el hogar.",
+  "author": "L. Frank Baum, El mago de Oz"
+},
+{
+  "phrase": "La vida es una novela, y lo mejor que se puede hacer es escribir y leer intensamente.",
+  "author": "Virginia Woolf"
+},
+{
+  "phrase": "Los defectos de una persona son lo que la hacen interesante. Puedes sentir algo por alguien que te es perfectamente indiferente.",
+  "author": "Emma, Jane Austen"
+},
+{
+  "phrase": "No dejes para mañana lo que puedas hacer hoy.",
+  "author": "Charles Dickens, David Copperfield"
+},
+{
+  "phrase": "Todos los hombres mueren, pero no todos los hombres viven de verdad.",
+  "author": "William Wallace, Braveheart"
+},
+{
+  "phrase": "Toda historia de amor es hermosa, pero la nuestra es mi favorita.",
+  "author": "Soy el número cuatro, Pittacus Lore"
+},
+{
+  "phrase": "La verdad es una cuestión de perspectiva.",
+  "author": "Amy Plum, Until I Die"
+},
+{
+  "phrase": "No temas al fracaso. No hay nada que enseñe tanto como la derrota.",
+  "author": "Michael Ende, La historia interminable"
+},
+{
+  "phrase": "La curiosidad mató al gato, pero la satisfacción lo trajo de vuelta.",
+  "author": "Terry Pratchett, Jingo"
+},
+{
+  "phrase": "Nada es tan peligroso como una idea cuando es la única que tienes.",
+  "author": "Emily Dickinson"
+}
+]

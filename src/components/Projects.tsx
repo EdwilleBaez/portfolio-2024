@@ -1,4 +1,6 @@
-import { FaGithub, FaRocket } from "react-icons/fa";
+import { BsLightningFill } from "react-icons/bs";
+import { FaCalendarCheck, FaGithub, FaQuestion, FaRocket, FaTasks } from "react-icons/fa";
+import { IoLogoFigma } from "react-icons/io5";
 
 const Projects = () => {
   const myProjects = [
@@ -8,7 +10,7 @@ const Projects = () => {
       subtitulo: "Subtítulo del Proyecto 1",
       descripcion: "Descripción breve del Proyecto 1",
       deployLink: "https://pointin-app.netlify.app",
-      imagen: "/poitin.png",
+      icon: <BsLightningFill />,
       badges: ["React", "Tailwind", "TypeScript"]
     },
     {
@@ -18,7 +20,7 @@ const Projects = () => {
       descripcion: "Descripción breve del Proyecto 1",
       githubLink: "https://github.com/EdwilleBaez/guess-the-number",
       deployLink: "https://guess-the-4-numbers.netlify.app",
-      imagen: "/guess.png",
+      icon: <FaQuestion />,
       badges: ["React", "Tailwind", "TypeScript"]
     },
     {
@@ -27,7 +29,7 @@ const Projects = () => {
       subtitulo: "Subtítulo del Proyecto 1",
       descripcion: "Descripción breve del Proyecto 1",
       deployLink: "https://editor-de-tareas.netlify.app",
-      imagen: "/task.png",
+      icon:  <FaTasks />,
       badges: ["HTML","CSS", "JavaScript"]
     },
     {
@@ -37,7 +39,7 @@ const Projects = () => {
       descripcion: "Descripción breve del Proyecto 1",
       githubLink: "https://github.com/EdwilleBaez/GestorDeCitas",
       deployLink: "https://beaty-appointment-manager.netlify.app",
-      imagen: "/welcome.png",
+      icon: <FaCalendarCheck />,
       badges: ["React", "Boostrap"]
     },
     {
@@ -47,7 +49,7 @@ const Projects = () => {
       descripcion: "Descripción breve del Proyecto 1",
       githubLink: "https://github.com/EdwilleBaez/Emerald",
       deployLink: "https://emerald-project.netlify.app",
-      imagen: "/figma.png",
+      icon: <IoLogoFigma />,
       badges: ["HTML", "SASS"]
     },
     {
@@ -57,7 +59,7 @@ const Projects = () => {
       descripcion: "Descripción breve del Proyecto 1",
       githubLink: "https://github.com/EdwilleBaez/dark-mode-dashboard",
       deployLink: "https://figma-desing.netlify.app",
-      imagen: "/figma.png",
+      icon: <IoLogoFigma />,
       badges: ["HTML","SASS"]
     },
   ];
@@ -70,32 +72,20 @@ const Projects = () => {
             key={`project-${project.id}`}
             className="badge-container bg-white rounded-lg shadow-md p-8"
           >
-            <img
-              src={project.imagen}
-              alt={project.titulo}
-              className="w-24 h-24 rounded-full mx-auto mb-4"
-            />
+            <div className="text-3xl flex text-gray-600 justify-center  mb-4">
+              {project.icon}
+            </div>
             <div className="relative">
               <h2 className="text-xl text-center font-semibold mb-2">
                 {project.titulo}
               </h2>
-              <div className="badge absolute top-0 left-0 right-0 mb-3 bg-white">
-                {project.badges.map((badge, index) => (
-                  <span
-                    key={`badge-${index}`}
-                    className="badge bg-secondary text-white px-3 py-1 rounded mr-2"
-                  >
-                    {badge}
-                  </span>
-                ))}
-              </div>
             </div>
             <p className="text-gray-600 text-center">{project.descripcion}</p>
             <div className="mt-4 flex justify-center">
               {project.githubLink && (
                 <a
                 href={project.githubLink}
-                className="text-primary hover:text-secondary font-medium mr-4 flex items-center"
+                className="text-tertiary hover:text-tertiary-dark font-medium mr-4 flex items-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,7 +95,7 @@ const Projects = () => {
               )}
               <a
                 href={project.deployLink}
-                className="text-primary hover:text-secondary font-medium flex items-center"
+                className="text-tertiary hover:text-tertiary-dark font-medium flex items-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,6 +103,16 @@ const Projects = () => {
                 Ver deploy
               </a>
             </div>
+            <div className="flex flex-wrap justify-center gap-3 text-center mt-5 text-[12px]">
+                {project.badges.map((badge, index) => (
+                  <span
+                    key={`badge-${index}`}
+                    className="border border-secondary text-secondary px-3 py-1 rounded"
+                  >
+                    {badge}
+                  </span>
+                ))}
+              </div>
           </div>
         ))}
       </div>

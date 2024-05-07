@@ -1,3 +1,14 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+@font-face {
+  font-family: 'Shettricka';
+  src: url('/fonts/Shettricka/Shettricka.ttf') format('truetype');
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}

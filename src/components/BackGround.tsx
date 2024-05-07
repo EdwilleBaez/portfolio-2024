@@ -1,4 +1,4 @@
-import Welcome from "../assets/welcome.jpg";
+import Welcome from "/assets/welcome.jpg";
 const BackGround = () => {
   return (
     <div className="hero">

@@ -2,15 +2,16 @@ import { useEffect, useState } from "react";
 import phrases from "../data/phrases.json";
 const Phrase = () => {
   const [index, setIndex] = useState(0);
-  const [img, setImg] = useState(0);
+  const [img, setImg] = useState(1);
 
   console.log(img);
 
   useEffect(() => {
     setIndex(Math.floor(Math.random() * phrases.length));
-    setImg(Math.floor(Math.random() * 6));
+    setImg(Math.floor(Math.random() * 8) + 1);
   }, []);
 
+console.log("img",img)
   const nextPhrase = () => {
     setIndex(Math.floor(Math.random() * phrases.length));
     setImg(Math.floor(Math.random() * 6));
@@ -28,7 +29,8 @@ const Phrase = () => {
         </div>
         <img
           className="w-[460px] h-[320px] shadow-[20px_20px_0px_0px_rgba(0,0,0,0.75)]"
-          src={`/src/assets/img-${img}.jpg`}
+          src={`/assets/img-${img}.jpg`}
+          onError={() => setImg(0)}
           alt="Imagen"
         />
       </section>

@@ -1,33 +1,30 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 const useScrollDirection = () => {
   const [scrollDirection, setScrollDirection] = useState<'up' | 'down'>('up');
-  const [prevScrollY, setPrevScrollY] = useState<number>(0);
+  const prevScrollYRef = useRef<number>(0);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      const deltaY = currentScrollY - prevScrollY;
+      const deltaY = currentScrollY - prevScrollYRef.current;
       
-      // Establecer un umbral mínimo de cambio en el desplazamiento
-      const scrollThreshold = 50;
+      // Verificar si el cambio en el desplazamiento supera un umbral mínimo
+      const scrollThreshold = 100;
       
-      // Verificar si el cambio en el desplazamiento supera el umbral
       if (Math.abs(deltaY) > scrollThreshold) {
         const direction = deltaY > 0 ? 'down' : 'up';
         setScrollDirection(direction);
-        setPrevScrollY(currentScrollY);
+        prevScrollYRef.current = currentScrollY; // Actualizar el valor del ref
       }
     };
-
-    console.log("y",prevScrollY)
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [prevScrollY]);
+  }, []); // Sin dependencias para que solo se monte una vez
 
   return scrollDirection;
 };

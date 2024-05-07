@@ -58,9 +58,9 @@
     transform: translateX(-50%);
     width: 0;
     height: 0;
-    border-left: 6px solid transparent; /* Tamaño del triángulo */
-    border-right: 6px solid transparent; /* Tamaño del triángulo */
-    border-top: 6px solid #3f454f; /* Color de fondo y altura del triángulo */
+    border-left: 6px solid transparent; /* ancho del triángulo */
+    border-right: 6px solid transparent; /* ancho del triángulo */
+    border-top: 6px solid #3f454f; /* tamaño y color del triángulo */
     opacity: 0;
     transition: opacity 0.4s ease;
   }
@@ -92,9 +92,9 @@
     transform: translateX(-50%);
     width: 0;
     height: 0;
-    border-left: 8px solid transparent; /* Tamaño del triángulo */
-    border-right: 8px solid transparent; /* Tamaño del triángulo */
-    border-top: 8px solid #f4eaea; /* Color de fondo y altura del triángulo */
+    border-left: 8px solid transparent; /* ancho del triángulo */
+    border-right: 8px solid transparent; /* ancho del triángulo */
+    border-top: 8px solid #f4eaea; /* tamaño y color del triángulo */
     opacity: 0;
     transition: opacity 0.4s ease;
   }
@@ -103,6 +103,36 @@
   .footer-icon:hover::before {
     opacity: 1;
   }
+
+
+
+  /* scrollbar */
+
+/* Estilos para el scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 0px; /* Ancho del scrollbar */
+  background-color: transparent; /* Color de fondo del scrollbar */
+}
+
+/* Ocultar completamente el scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Color del thumb */
+  border: none; /* Borde del thumb */
+}
+
+/* Ocultar completamente el track (barra de fondo) del scrollbar */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Color de fondo del track */
+}
+
+/* Mostrar el scrollbar solo al hacer scroll */
+::-webkit-scrollbar-thumb:hover {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0.185); /* Cambia el color del thumb al hacer hover */
+}
+
+
+
   
   
   

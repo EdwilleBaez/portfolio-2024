@@ -111,7 +111,6 @@
 /* Estilos para el scrollbar personalizado */
 ::-webkit-scrollbar {
   width: 0px; /* Ancho del scrollbar */
-  background-color: transparent; /* Color de fondo del scrollbar */
 }
 
 /* Ocultar completamente el scrollbar */
@@ -133,6 +132,20 @@
 
 
 
+
+@media screen and (max-width: 460px) {
+  .hero-background-image {
+    /* Ajusta el tamaño de la imagen para dispositivos más pequeños */
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hero-background-image {
+    /* Ajusta el tamaño de la imagen para dispositivos más pequeños */
+    height: 80vh;
+  }
+}
   
   
   

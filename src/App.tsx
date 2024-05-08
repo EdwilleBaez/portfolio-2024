@@ -12,7 +12,7 @@ import Goals from "./components/Goals";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <BackGround />
       <HeroSection />
@@ -26,6 +26,7 @@ function App() {
         bgColor="bg-white"
         imagePosition="left"
       />
+      <Separator backgroundImage="/assets/image-1.jpg" className="md:hidden"/>
       <ImageTextSection
         imageUrl="/assets/image-2.jpg"
         title="Algo mas..."
@@ -34,7 +35,7 @@ function App() {
         bgColor="bg-secondary"
         imagePosition="right"
       />
-      <Separator title="MIS PROYECTOS" paragraph="Competencias profesionales" />
+      <Separator title="MIS PROYECTOS" paragraph="Competencias profesionales"/>
       <Projects />
       <ImageTextSection
         id="more-about-me"
@@ -45,6 +46,7 @@ function App() {
         bgColor="bg-white"
         imagePosition="left"
       />
+      <Separator backgroundImage="/assets/image-2.jpg" className="md:hidden"/>
       <ImageTextSection
         imageUrl="/assets/image-2.jpg"
         title="Algo mas..."
@@ -60,7 +62,7 @@ function App() {
       <Goals/>
       <Phrase />
       <Footer />
-    </>
+    </div>
   );
 }
 

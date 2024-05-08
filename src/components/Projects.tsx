@@ -11,7 +11,7 @@ const Projects = () => {
       descripcion: "Descripción breve del Proyecto 1",
       deployLink: "https://pointin-app.netlify.app",
       icon: <BsLightningFill />,
-      badges: ["React", "Tailwind", "TypeScript"]
+      badges: ["React", "Tailwind", "TypeScript", "Redux", "React Query"]
     },
     {
       id: "guess-the-number",
@@ -66,22 +66,22 @@ const Projects = () => {
 
   return (
     <section id="projects" className="w-full mx-auto p-12 bg-gray-100">
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {myProjects.map((project) => (
           <div
             key={`project-${project.id}`}
-            className="badge-container bg-white rounded-lg shadow-md p-8"
+            className="badge-container bg-white rounded-lg shadow-md p-8 flex flex-col justify-between"
           >
             <div className="text-3xl flex text-gray-600 justify-center  mb-4">
               {project.icon}
             </div>
             <div className="relative">
-              <h2 className="text-xl text-center font-semibold mb-2">
+              <h2 className="text-2xl text-center font-semibold mb-2">
                 {project.titulo}
               </h2>
             </div>
-            <p className="text-gray-600 text-center">{project.descripcion}</p>
-            <div className="mt-4 flex justify-center">
+            <p className="text-lg text-gray-600 text-center">{project.descripcion}</p>
+            <div className="mt-4 flex flex-wrap justify-center text-lg">
               {project.githubLink && (
                 <a
                 href={project.githubLink}

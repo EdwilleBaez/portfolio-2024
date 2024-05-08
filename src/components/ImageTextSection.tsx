@@ -32,17 +32,17 @@ const paragraphs = [
 const ImageTextSection: React.FC<ImageTextSectionProps> = ({id, imageUrl, title, subtitle, paragraphIndex, bgColor, imagePosition }) => {
 
   return (
-    <section id={id} className={`flex h-screen ${bgColor}`}>
+    <section id={id} className={`flex flex-col-reverse items-center justify-center sm:flex-row h-screen  ${bgColor}`}>
       {imagePosition === 'left' && (
-        <img className="h-screen w-1/2 object-cover" src={imageUrl} alt="Imagen" />
+        <img className="hidden h-full w-full sm:block sm:h-screen sm:w-1/2 object-cover" src={imageUrl} alt="Imagen" />
       )}
-      <div className="w-1/2 flex flex-col justify-center p-20">
-        <h2 className="text-3xl font-medium mb-4 font-raleway">{title}</h2>
-        <h3 className="text-xl mb-4">{subtitle}</h3>
-        <p className="text-lg">{paragraphs[paragraphIndex].paragraph}</p>
+      <div className="lg:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left p-8 lg:p-20">
+        <h2 className="text-5xl lg:text-4xl xl:text-5xl font-medium font-raleway">{title}</h2>
+        <h3 className="text-3xl lg:text-xl">{subtitle}</h3>
+        <p className="text-xl lg:text-l">{paragraphs[paragraphIndex].paragraph}</p>
       </div>
       {imagePosition === 'right' && (
-        <img className="h-screen w-1/2 object-cover" src={imageUrl} alt="Imagen" />
+          <img className="hidden h-full w-full sm:block sm:h-screen sm:w-1/2 object-cover" src={imageUrl} alt="Imagen" />
       )}
     </section>
   );

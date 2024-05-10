@@ -135,9 +135,9 @@
 
 @media screen and (max-width: 460px) {
   .hero-background-image {
-    background-size: auto; /* O ajusta a tu necesidad */
-    background-position: center;
-    height: 100%;
+    background-size: contain; 
+    background-position: center; 
+    height: 100%; 
   }
 }
 

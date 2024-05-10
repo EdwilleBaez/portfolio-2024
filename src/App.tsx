@@ -26,7 +26,7 @@ function App() {
         bgColor="bg-white"
         imagePosition="left"
       />
-      <Separator backgroundImage="/assets/image-1.jpg" className="md:hidden"/>
+      <Separator backgroundImage="/assets/image-1.jpg" className="sm:hidden"/>
       <ImageTextSection
         imageUrl="/assets/image-2.jpg"
         title="Algo mas..."
@@ -46,7 +46,7 @@ function App() {
         bgColor="bg-white"
         imagePosition="left"
       />
-      <Separator backgroundImage="/assets/image-2.jpg" className="md:hidden"/>
+      <Separator backgroundImage="/assets/image-2.jpg" className="sm:hidden"/>
       <ImageTextSection
         imageUrl="/assets/image-2.jpg"
         title="Algo mas..."

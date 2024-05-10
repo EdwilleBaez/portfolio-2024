@@ -8,7 +8,7 @@ const menuItems = [
 	{ label: 'Sobre mi', href: '#about-me' },
 	{ label: 'Proyectos', href: '#projects' },
 	{ label: 'Más sobre mi', href: '#more-about-me' },
-	{ label: 'Habilidades', href: '#habilities' }
+	{ label: 'Habilidades', href: '#goals' }
 ]
 
 const Navbar = () => {

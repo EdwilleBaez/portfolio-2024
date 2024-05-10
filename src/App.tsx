@@ -57,7 +57,7 @@ function App() {
       />
       <Separator
         title="MIS HABILIDADES"
-        paragraph="Competencias profesionales"
+        paragraph="Competencias personales"
       />
       <Goals/>
       <Phrase />

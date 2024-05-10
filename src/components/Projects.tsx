@@ -76,12 +76,12 @@ const Projects = () => {
               {project.icon}
             </div>
             <div className="relative">
-              <h2 className="text-2xl text-center font-semibold mb-2">
+              <h2 className="text-xl text-center font-semibold mb-2">
                 {project.titulo}
               </h2>
             </div>
-            <p className="text-lg text-gray-600 text-center">{project.descripcion}</p>
-            <div className="mt-4 flex flex-wrap justify-center text-lg">
+            <p className="text-base text-gray-600 text-center">{project.descripcion}</p>
+            <div className="mt-4 flex flex-wrap justify-center text-base">
               {project.githubLink && (
                 <a
                 href={project.githubLink}

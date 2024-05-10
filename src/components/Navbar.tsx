@@ -8,7 +8,6 @@ const menuItems = [
 	{ label: 'Sobre mi', href: '#about-me' },
 	{ label: 'Proyectos', href: '#projects' },
 	{ label: 'Más sobre mi', href: '#more-about-me' },
-	{ label: 'Experiencia', href: '#expirence' },
 	{ label: 'Habilidades', href: '#habilities' }
 ]
 
@@ -55,7 +54,7 @@ const Navbar = () => {
 									key={index}
 									href={item.href}
 									onClick={handleClick}
-									className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-[12px] tracking-[1px] text-black hover:border-white min-w-max"
+									className="inline-flex items-center px-2 pt-1 border-b-2 border-transparent text-[12px] tracking-[1px] text-black hover:border-white min-w-max"
 								>
 									{item.label}
 								</a>

@@ -36,9 +36,9 @@ const ImageTextSection: React.FC<ImageTextSectionProps> = ({id, imageUrl, title,
       {imagePosition === 'left' && (
         <img className="hidden h-full w-full sm:block sm:h-screen sm:w-1/2 object-cover" src={imageUrl} alt="Imagen" />
       )}
-      <div className="lg:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left p-8 lg:p-20">
+      <div className="lg:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left px-8 lg:p-20">
         <h2 className="text-5xl lg:text-4xl xl:text-5xl font-medium font-raleway">{title}</h2>
-        <h3 className="text-3xl lg:text-xl">{subtitle}</h3>
+        <h3 className="text-2xl lg:text-xl">{subtitle}</h3>
         <p className="text-xl lg:text-l">{paragraphs[paragraphIndex].paragraph}</p>
       </div>
       {imagePosition === 'right' && (

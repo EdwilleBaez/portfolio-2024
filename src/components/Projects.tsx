@@ -6,18 +6,18 @@ const Projects = () => {
   const myProjects = [
     {
       id: "poitin",
-      titulo: "Poitin",
-      subtitulo: "Subtítulo del Proyecto 1",
-      descripcion: "Descripción breve del Proyecto 1",
+      title: "Poitin",
+      subtitle: "Subtítulo del Proyecto 1",
+      description: "Proyecto en desarrollo",
       deployLink: "https://pointin-app.netlify.app",
       icon: <BsLightningFill />,
       badges: ["React", "Tailwind", "TypeScript", "Redux", "React Query"]
     },
     {
       id: "guess-the-number",
-      titulo: "Adivina el Número",
-      subtitulo: "Subtítulo del Proyecto 1",
-      descripcion: "Descripción breve del Proyecto 1",
+      title: "Adivina el Número",
+      subtitle: "Subtítulo del Proyecto 1",
+      description: "Juego interactivo",
       githubLink: "https://github.com/EdwilleBaez/guess-the-number",
       deployLink: "https://guess-the-4-numbers.netlify.app",
       icon: <FaQuestion />,
@@ -25,18 +25,18 @@ const Projects = () => {
     },
     {
       id: "to-do-list",
-      titulo: "Editor de tareas",
-      subtitulo: "Subtítulo del Proyecto 1",
-      descripcion: "Descripción breve del Proyecto 1",
+      title: "Editor de tareas",
+      subtitle: "CRUD completo en inglés y español",
+      description: "CRUD completo en inglés y español",
       deployLink: "https://editor-de-tareas.netlify.app",
       icon:  <FaTasks />,
       badges: ["HTML","CSS", "JavaScript"]
     },
     {
       id: "appointment-manager",
-      titulo: "Gestor de citas",
-      subtitulo: "Subtítulo del Proyecto 1",
-      descripcion: "Descripción breve del Proyecto 1",
+      title: "Gestor de citas",
+      subtitle: "Aquí aprendí sobre React Router y Context",
+      description: "Aquí aprendí sobre React Router y Context",
       githubLink: "https://github.com/EdwilleBaez/GestorDeCitas",
       deployLink: "https://beaty-appointment-manager.netlify.app",
       icon: <FaCalendarCheck />,
@@ -44,9 +44,9 @@ const Projects = () => {
     },
     {
       id: "emerald",
-      titulo: "Emerald",
-      subtitulo: "Subtítulo del Proyecto 1",
-      descripcion: "Descripción breve del Proyecto 1",
+      title: "Emerald",
+      subtitle: "Mis inicios en la maquetación web",
+      description: "Mis inicios en la maquetación web",
       githubLink: "https://github.com/EdwilleBaez/Emerald",
       deployLink: "https://emerald-project.netlify.app",
       icon: <IoLogoFigma />,
@@ -54,9 +54,9 @@ const Projects = () => {
     },
     {
       id: "dashboard",
-      titulo: "Dashboard",
-      subtitulo: "Subtítulo del Proyecto 1",
-      descripcion: "Descripción breve del Proyecto 1",
+      title: "Dashboard",
+      subtitle: "Subtítulo del Proyecto 1",
+      description: "Mis inicios en la maquetación web",
       githubLink: "https://github.com/EdwilleBaez/dark-mode-dashboard",
       deployLink: "https://figma-desing.netlify.app",
       icon: <IoLogoFigma />,
@@ -77,10 +77,10 @@ const Projects = () => {
             </div>
             <div className="relative">
               <h2 className="text-xl text-center font-semibold mb-2">
-                {project.titulo}
+                {project.title}
               </h2>
             </div>
-            <p className="text-base text-gray-600 text-center">{project.descripcion}</p>
+            <p className="text-base text-gray-600 text-center">{project.description}</p>
             <div className="mt-4 flex flex-wrap justify-center text-base">
               {project.githubLink && (
                 <a

@@ -30,7 +30,7 @@ console.log("img",img)
         <img
           className="hidden sm:block w-[460px] h-[320px] shadow-[20px_20px_0px_0px_rgba(0,0,0,0.75)]"
           src={`/assets/img-${img}.jpg`}
-          onError={() => setImg(0)}
+          onError={() => setImg(1)}
           alt="Imagen"
         />
       </section>

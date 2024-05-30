@@ -1,7 +1,9 @@
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebookF, } from 'react-icons/fa'
 import { HiBriefcase } from 'react-icons/hi'
 import useScrollDirection from '../utils/getScrollDirection'
 import DropdownMenu from './DropdownMenu'
+import { PiFilmReelFill } from 'react-icons/pi'
+import { FiInstagram } from 'react-icons/fi'
 
 const menuItems = [
 	{ label: 'Inicio', href: '#introduction' },
@@ -32,14 +34,15 @@ const Navbar = () => {
 	return (
 		<nav
 			className={`flex justify-center items-center fixed top-0 w-screen z-10 bg-white font-raleway font-medium content-center transform sm:duration-500 ease-in-out ${
-				scrollDirection === 'up' ? 'h-20 sm:h-36' : 'h-10 sm:h-16'
+				scrollDirection === 'up' ? 'h-16 sm:h-32' : 'h-8 sm:h-14'
 			}`}
 		>
 			<div className="w-4/6">
 				{scrollDirection === 'up' && (
 					<div className="flex items-center">
-						<p className="text-black p-2 text-lg">Edwille Báez</p>
+						<p className="text-black p-2 text-lg">Nathaly Trinidad</p>
 						<HiBriefcase />
+						<PiFilmReelFill />
 					</div>
 				)}
 				<div
@@ -47,7 +50,7 @@ const Navbar = () => {
 						scrollDirection === 'up' ? 'border-t-[1px] border-black' : ''
 					}`}
 				>
-					<div className="w-full h-10 sm:h-16  flex justify-between items-center text-lg">
+					<div className="w-full h-8 sm:h-14  flex justify-between items-center text-lg">
 						<div className="gap-3 hidden md:block">
 							{menuItems.map((item, index) => (
 								<a
@@ -67,7 +70,7 @@ const Navbar = () => {
 								rel="noopener noreferrer"
 								className="navbar-icon before:content-['Github'] relative"
 							>
-								<FaGithub />
+								<FaFacebookF />
 							</a>
 							<a
 								href="https://www.linkedin.com/in/edwillebaez/"
@@ -75,7 +78,7 @@ const Navbar = () => {
 								rel="noopener noreferrer"
 								className="navbar-icon before:content-['Linkedin'] relative"
 							>
-								<FaLinkedinIn />
+								<FiInstagram />
 							</a>
 						</div>
 						<div className="md:hidden">

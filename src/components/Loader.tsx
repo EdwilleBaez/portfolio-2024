@@ -40,7 +40,7 @@ const Loader: React.FC<LoaderProps> = ({ size = '2rem' }) => {
 
                 @keyframes brighten {
                 100% {
-                        background-color: #FF5769;
+                        background-color: #8979B3;
                     box-shadow: none;
                 }
                 }

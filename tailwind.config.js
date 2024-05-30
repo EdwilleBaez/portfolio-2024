@@ -12,10 +12,10 @@ export default {
 
       },
       colors: {
-        'primary': '#D39CA2',
-        'secondary': '#FF5769',
-        'tertiary': '#8E754F',
-        'tertiary-dark': '#5E4E36'
+        'primary': '#8979B3',
+        'secondary': '#DFA4C7',
+        'tertiary': '#ABD2DF',
+        'tertiary-dark': '#A2BFC9'
       }
     },
   },

@@ -4,14 +4,11 @@ const Phrase = () => {
   const [index, setIndex] = useState(0);
   const [img, setImg] = useState(1);
 
-  console.log(img);
-
   useEffect(() => {
     setIndex(Math.floor(Math.random() * phrases.length));
     setImg(Math.floor(Math.random() * 8) + 1);
   }, []);
 
-console.log("img",img)
   const nextPhrase = () => {
     setIndex(Math.floor(Math.random() * phrases.length));
     setImg(Math.floor(Math.random() * 6));

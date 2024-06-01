@@ -26,7 +26,7 @@ function App() {
 					id="about-me"
 					imageUrl="/assets/image-2.jpg"
 					title="Algo sobre mí"
-					subtitle="Objetivo personal"
+					subtitle="Experiencia en Maquillaje y Vestuario"
 					paragraphIndex={0}
 					bgColor="bg-white"
 					imagePosition="left"
@@ -34,19 +34,19 @@ function App() {
 				<Separator backgroundImage="/assets/image-1.jpg" className="sm:hidden" />
 				<ImageTextSection
 					imageUrl="/assets/image-3.jpg"
-					title="Algo mas..."
-					subtitle="Objetivo profesional"
+					title="Algo más..."
+					subtitle="Dirección de Cortometrajes"
 					paragraphIndex={1}
 					bgColor="bg-secondary"
 					imagePosition="right"
 				/>
-				<Separator title="MIS PROYECTOS" paragraph="Competencias profesionales" />
+				<Separator title="PROYECTOS DESTACADOS" paragraph="Competencias profesionales" />
 				<Projects />
 				<ImageTextSection
 					id="more-about-me"
 					imageUrl="/assets/image-4.jpg"
 					title="Algo sobre mí"
-					subtitle="Filosofia personal"
+					subtitle="Interpretación y Actuación"
 					paragraphIndex={2}
 					bgColor="bg-white"
 					imagePosition="left"
@@ -54,8 +54,8 @@ function App() {
 				<Separator backgroundImage="/assets/image-3.jpg" className="sm:hidden" />
 				<ImageTextSection
 					imageUrl="/assets/image-5.jpg"
-					title="Algo mas..."
-					subtitle="Filosofia profesional"
+					title="Algo más..."
+					subtitle="Filosofía y Pasión"
 					paragraphIndex={3}
 					bgColor="bg-secondary"
 					imagePosition="right"

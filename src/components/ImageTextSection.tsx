@@ -12,24 +12,24 @@ interface ImageTextSectionProps {
 
 const paragraphs = [
 	{
-		title: 'Objetivos personales',
+		title: 'Experiencia en Maquillaje y Vestuario',
 		paragraph:
-			'Puesto en palabras lindas y filosóficas, quiero  encontrar la armonía entre mi crecimiento personal, el servicio a los demás y la preservación del planeta. Sin embargo, cuando despojamos de toda floritura y nos adentramos en la esencia de lo que es, mi deseo más sincero es tan simple como universal: vivir plenamente, como cualquiera." Puesto en palabras llanas, a lo que me refiero es a vivir plenamente, como cualquiera.'
+			'He desempeñado roles cruciales como maquillista y vestuarista, transformando personajes y creando atmósferas únicas. Con un ojo agudo para el detalle y una profunda comprensión de la narrativa visual, he trabajado en una amplia gama de proyectos, desde comerciales hasta cortometrajes'
 	},
 	{
-		title: 'Objetivos profesionales',
+		title: 'Dirección de Cortometrajes',
 		paragraph:
-			'Busco convertirme en un desarrollador web altamente competente, dominando habilidades técnicas de alto impacto, sin dejar nunca de enriquecer mis habilidades. Mi objetivo es formar parte de un equipo dinámico y talentoso donde enfrentemos desafíos significativos para contribuir al desarrollo de proyectos ambiciosos, e inspirar a otros en el camino.'
+		'He dirigido cortometrajes, donde he podido dar vida a mi visión creativa. Mis trabajos como directora no solo cuentan historias, sino que también exploran temas profundos y conectan emocionalmente con la audiencia'
 	},
 	{
-		title: 'Filosofía personal',
+		title: 'Interpretación y Actuación',
 		paragraph:
-			'Creo en vivir cada día con gratitud, apertura y propósito. Me esfuerzo por cultivar relaciones profundas y significativas, valorando la conexión humana por encima de todo. Busco aprender de cada experiencia, tanto de los momentos de alegría como de los desafíos, sabiendo que cada uno de ellos tiene algo importante que enseñarme y me comprometo a vivir en congruencia con mis valores en todo lo que hago.'
+			'Como actriz, he interpretado diversos personajes, sumergiéndome en historias emocionantes y desafiantes. Mi habilidad para adaptarme a diferentes roles me ha permitido participar en producciones variadas, enriqueciendo cada proyecto con mi versatilidad'
 	},
 	{
-		title: 'Filosofía profesional',
+		title: 'Filosofía y Pasión',
 		paragraph:
-			'Creo firmemente en el poder del trabajo en equipo y en la valiosa oportunidad de aprender unos de otros. Creo en la creatividad y la diversidad de pensamiento como un método efectivo ante la resolución de problemas. Creo en la transparencia, la comunicación abierta y el respeto mutuo como pilares fundamentales de una colaboración exitosa. Creo que los errores son grandes lecciones y creo en ofrecer un trabajo de alta calidad.'
+			'Estoy profundamente apasionada por el arte de contar historias. Cada proyecto es una oportunidad para inspirar y conectar con el público de manera significativa. Mi objetivo es seguir explorando nuevas narrativas y colaboraciones creativas que dejen una huella duradera.'
 	}
 ]
 

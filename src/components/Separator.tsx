@@ -14,9 +14,9 @@ const SeparatorSection: React.FC<SeparatorSectionProps> = ({ title, paragraph, b
 	}
 
 	return (
-		<section className={`flex justify-end items-center h-[400px] ${className}`} style={sectionStyle}>
-			<div className="max-w-screen-lg px-4 w-2/3">
-				<h2 className="text-4xl sm:text-[40px] text-detail-color font-medium font-raleway text-center">{title}</h2>
+		<section className={`flex justify-center h-[400px] ${className}`} style={sectionStyle}>
+			<div className="max-w-screen-lg px-4 mt-20">
+				<h2 className="text-4xl sm:text-[40px] font-medium font-raleway text-center">{title}</h2>
 				<p className="text-xl sm:text-lg text-center py-4">{paragraph}</p>
 			</div>
 		</section>

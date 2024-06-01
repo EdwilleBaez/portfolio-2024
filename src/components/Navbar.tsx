@@ -34,7 +34,7 @@ const Navbar = () => {
 	return (
 		<nav
 			className={`flex justify-center items-center fixed top-0 w-screen z-10 bg-white font-raleway font-medium content-center transform sm:duration-500 ease-in-out ${
-				scrollDirection === 'up' ? 'h-16 sm:h-32' : 'h-8 sm:h-14'
+				scrollDirection === 'up' ? 'h-20 sm:h-36' : 'h-10 sm:h-16'
 			}`}
 		>
 			<div className="w-4/6">
@@ -65,18 +65,18 @@ const Navbar = () => {
 						</div>
 						<div className="flex gap-3 ml-5">
 							<a
-								href="https://github.com/EdwilleBaez"
+								href="https://www.facebook.com/nathalicielo"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="navbar-icon before:content-['Github'] relative"
+								className="navbar-icon before:content-['Facebook'] relative"
 							>
 								<FaFacebookF />
 							</a>
 							<a
-								href="https://www.linkedin.com/in/edwillebaez/"
+								href="https://www.instagram.com/natalicielo/"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="navbar-icon before:content-['Linkedin'] relative"
+								className="navbar-icon before:content-['Instagram'] relative"
 							>
 								<FiInstagram />
 							</a>

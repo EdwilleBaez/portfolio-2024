@@ -1,12 +1,15 @@
-import Welcome from '/assets/welcome.jpg'
+import Welcome from '/assets/welcome.jpg';
+
 const BackGround = () => {
 	return (
-		<div className="overflow-hidden">
-			<div className="absolute w-full top-[18%] min-[450px]:top-[10%] min-[530px]:top-[5%] sm:top-[-5%] md:top-[-20%] lg:top-[-38%] xl:top-[-70%] left-0 z-[-1]">
-				<img className="fixed hero-background-image object-cover" src={Welcome} alt="Fondo" />
-			</div>
+		<div className="fixed z-[-1] top-20  md:top-14 left-0 right-0 h-screen overflow-hidden">
+			<img
+				className="absolute inset-0 w-full h-full object-cover object-[50%_50%] min-[575px]:object-[50%_70%] sm:object-[50%_25%]"
+				src={Welcome}
+				alt="Fondo"
+			/>
 		</div>
-	)
+	);
 }
 
-export default BackGround
+export default BackGround;

@@ -64,6 +64,12 @@ const Projects = () => {
 
 	const toggleShowProjects = () => {
 		setShowAllProjects(!showAllProjects)
+		const projectsSection = document.getElementById('projects')
+		if (projectsSection) {
+			const offset = -100
+			const sectionPosition = projectsSection.getBoundingClientRect().top + window.scrollY + offset
+			window.scrollTo({ top: sectionPosition, behavior: 'smooth' })
+		}
 	}
 
 	// Determina la cantidad de proyectos a mostrar
@@ -77,7 +83,7 @@ const Projects = () => {
 						key={`project-${project.id}`}
 						className={`badge-container relative overflow-hidden project-card bg-white rounded-lg shadow-md flex flex-col ${project.id}`}
 					>
-						<img src={project.image} alt={project.title} className='' />
+						<img src={project.image} alt={project.title} className="" />
 						<div className="project-content p-8 pt-4">
 							<div className="">
 								<h2 className="text-xl text-center font-semibold mb-2">{project.title}</h2>
@@ -90,7 +96,7 @@ const Projects = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<RiExternalLinkFill size={20} className='mr-1'/>
+									<RiExternalLinkFill size={20} className="mr-1" />
 									Ver proyecto
 								</a>
 							</div>
@@ -109,7 +115,10 @@ const Projects = () => {
 				))}
 			</div>
 			<div className="flex justify-center mt-8">
-				<button onClick={toggleShowProjects} className="text-white px-8 py-2 rounded-md border bg-tertiary-dark border-tertiary-dark hover:text-tertiary-dark hover:bg-transparent hover:border-tertiary-dark font-medium">
+				<button
+					onClick={toggleShowProjects}
+					className="text-white px-8 py-2 rounded-md border bg-tertiary-dark border-tertiary-dark hover:text-tertiary-dark hover:bg-transparent hover:border-tertiary-dark font-medium"
+				>
 					{showAllProjects ? 'Ver menos' : 'Ver más proyectos'}
 				</button>
 			</div>

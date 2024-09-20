@@ -8,6 +8,7 @@ import { FiInstagram } from 'react-icons/fi'
 const menuItems = [
 	{ label: 'Inicio', href: '#introduction' },
 	{ label: 'Sobre mi', href: '#about-me' },
+	{ label: 'Películas', href: '#movies' },
 	{ label: 'Proyectos', href: '#projects' },
 	{ label: 'Más sobre mi', href: '#more-about-me' },
 	// { label: 'Habilidades', href: '#goals' }

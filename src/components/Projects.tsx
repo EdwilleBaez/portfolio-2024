@@ -4,6 +4,15 @@ import { RiExternalLinkFill } from 'react-icons/ri'
 const Projects = () => {
 	const myProjects = [
 		{
+			id: 'entre-arena-y-la-santisima-cruz',
+			title: 'Entre arena y la santísima cruz',
+			subtitle: 'Subtítulo del Proyecto 1',
+			description: 'Proyecto en desarrollo',
+			videoLink: 'https://www.youtube.com/watch?v=gGdhnIGIEic&ab_channel=Magu%C3%A1Cinema',
+			image: '../../public/assets/p4/img5.jpeg',
+			badges: ['Astistencia de producción']
+		},
+		{
 			id: 'las-de-juan-luis-guerra',
 			title: 'Las de Juan Luis Guerra',
 			subtitle: 'Subtítulo del Proyecto 1',
@@ -11,6 +20,15 @@ const Projects = () => {
 			videoLink: 'https://www.youtube.com/watch?v=Emm6tJa-yUs&ab_channel=LuisSegura',
 			image: '../../public/assets/proyecto1.png',
 			badges: ['Astistencia de vestuario']
+		},
+		{
+			id: 'la-ultima-vez',
+			title: 'La última vez',
+			subtitle: 'Subtítulo del Proyecto 1',
+			description: 'Proyecto en desarrollo',
+			videoLink: 'https://www.youtube.com/watch?v=l5N64TKCsyw&ab_channel=AljadaquiOficial',
+			image: '../../public/assets/musicales/img2-m2.jpeg',
+			badges: ['Astistencia de casting']
 		},
 		{
 			id: 'buenos-negocios',
@@ -83,7 +101,7 @@ const Projects = () => {
 						key={`project-${project.id}`}
 						className={`badge-container relative overflow-hidden project-card bg-white rounded-lg shadow-md flex flex-col ${project.id}`}
 					>
-						<img src={project.image} alt={project.title} className="" />
+						<img src={project.image} alt={project.title} className="w-[426px] h-[246px]" />
 						<div className="project-content p-8 pt-4">
 							<div className="">
 								<h2 className="text-xl text-center font-semibold mb-2">{project.title}</h2>

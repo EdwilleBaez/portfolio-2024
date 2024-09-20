@@ -9,7 +9,7 @@ const Projects = () => {
 			subtitle: 'Subtítulo del Proyecto 1',
 			description: 'Proyecto en desarrollo',
 			videoLink: 'https://www.youtube.com/watch?v=gGdhnIGIEic&ab_channel=Magu%C3%A1Cinema',
-			image: '../../public/assets/p4/img5.jpeg',
+			image: '/assets/p4/img5.jpeg',
 			badges: ['Astistencia de producción']
 		},
 		{
@@ -18,7 +18,7 @@ const Projects = () => {
 			subtitle: 'Subtítulo del Proyecto 1',
 			description: 'Proyecto en desarrollo',
 			videoLink: 'https://www.youtube.com/watch?v=Emm6tJa-yUs&ab_channel=LuisSegura',
-			image: '../../public/assets/proyecto1.png',
+			image: '/assets/proyecto1.png',
 			badges: ['Astistencia de vestuario']
 		},
 		{
@@ -27,7 +27,7 @@ const Projects = () => {
 			subtitle: 'Subtítulo del Proyecto 1',
 			description: 'Proyecto en desarrollo',
 			videoLink: 'https://www.youtube.com/watch?v=l5N64TKCsyw&ab_channel=AljadaquiOficial',
-			image: '../../public/assets/musicales/img2-m2.jpeg',
+			image: '/assets/musicales/img2-m2.jpeg',
 			badges: ['Astistencia de casting']
 		},
 		{
@@ -36,7 +36,7 @@ const Projects = () => {
 			subtitle: 'Subtítulo del Proyecto 1',
 			description: 'Juego interactivo',
 			videoLink: 'https://youtu.be/VBp1Qj299JM?si=7WkKaVMSXnMXoI8G',
-			image: '../../public/assets/proyecto2.png',
+			image: '/assets/proyecto2.png',
 			badges: ['Dirección']
 		},
 		{
@@ -45,7 +45,7 @@ const Projects = () => {
 			subtitle: 'CRUD completo en inglés y español',
 			description: 'CRUD completo en inglés y español',
 			videoLink: 'https://www.youtube.com/watch?v=LqmXYSzMt6g&ab_channel=TobyCastillo',
-			image: '../../public/assets/proyecto3.png',
+			image: '/assets/proyecto3.png',
 			badges: ['Dirección']
 		},
 		{
@@ -55,7 +55,7 @@ const Projects = () => {
 			description: 'Aquí aprendí sobre React Router y Context',
 			githubLink: 'https://www.youtube.com/watch?v=5yQBTLSWha8&ab_channel=Josu%C3%A9ReyesPresenta',
 			videoLink: 'https://beaty-appointment-manager.netlify.app',
-			image: '../../public/assets/proyecto4.png',
+			image: '/assets/proyecto4.png',
 			badges: ['Vestuario', 'Maquillaje']
 		},
 		{
@@ -64,7 +64,7 @@ const Projects = () => {
 			subtitle: 'Mis inicios en la maquetación web',
 			description: 'Mis inicios en la maquetación web',
 			videoLink: 'https://www.youtube.com/watch?v=E-F2IHAMX_k&ab_channel=TobyCastillo',
-			image: '../../public/assets/proyecto5.png',
+			image: '/assets/proyecto5.png',
 			badges: ['Dirección', 'Actuación']
 		},
 		{

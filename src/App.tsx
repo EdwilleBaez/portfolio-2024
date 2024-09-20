@@ -93,7 +93,7 @@ function App() {
 					bgColor="bg-secondary"
 					imagePosition="left"
 				/>
-				<Separator className="md:hidden" />
+				<Separator height="h-[150px]" className="md:hidden" />
 				<ImageTextSection
 					id="more-about-me"
 					imageUrl={images1}
@@ -103,7 +103,7 @@ function App() {
 					bgColor="bg-white"
 					imagePosition="right"
 				/>
-				<Separator className="md:hidden" />
+				<Separator height="h-[150px]" className="md:hidden" />
 				<ImageTextSection
 					id="more-about-me"
 					imageUrl={images4}
@@ -126,7 +126,7 @@ function App() {
 					bgColor="bg-secondary"
 					imagePosition="left"
 				/>
-				<Separator className="md:hidden" />
+				<Separator height="h-[150px]" className="md:hidden" />
 				<ImageTextSection
 					id="more-about-me"
 					imageUrl={images6}

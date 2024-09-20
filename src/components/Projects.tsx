@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { RiExternalLinkFill } from 'react-icons/ri'
 
 const Projects = () => {
@@ -79,6 +79,32 @@ const Projects = () => {
 	]
 
 	const [showAllProjects, setShowAllProjects] = useState(false)
+	const [projectsToShow, setProjectsToShow] = useState(3)
+
+	// Ajusta el número de proyectos a mostrar según el tamaño de la ventana
+	useEffect(() => {
+		const handleResize = () => {
+			if (window.innerWidth >= 640 && window.innerWidth < 1024) {
+				// Para pantallas sm (640px a 1024px), mostrar 4 proyectos
+				setProjectsToShow(4)
+			} else if (window.innerWidth >= 1024) {
+				// Para pantallas lg o más grandes, mostrar 3 proyectos por defecto
+				setProjectsToShow(3)
+			} else {
+				// Para pantallas más pequeñas que sm, mostrar solo 3 proyectos
+				setProjectsToShow(3)
+			}
+		}
+
+		// Inicializar el número correcto de proyectos al montar el componente
+		handleResize()
+
+		// Agregar event listener para redimensionar
+		window.addEventListener('resize', handleResize)
+
+		// Limpiar event listener al desmontar el componente
+		return () => window.removeEventListener('resize', handleResize)
+	}, [])
 
 	const toggleShowProjects = () => {
 		setShowAllProjects(!showAllProjects)
@@ -90,8 +116,8 @@ const Projects = () => {
 		}
 	}
 
-	// Determina la cantidad de proyectos a mostrar
-	const visibleProjects = showAllProjects ? myProjects : myProjects.slice(0, 3)
+	// Determina la cantidad de proyectos a mostrar según el estado y tamaño de pantalla
+	const visibleProjects = showAllProjects ? myProjects : myProjects.slice(0, projectsToShow)
 
 	return (
 		<section id="projects" className="w-full mx-auto p-12 bg-gray-100">
@@ -101,11 +127,9 @@ const Projects = () => {
 						key={`project-${project.id}`}
 						className={`badge-container relative overflow-hidden project-card bg-white rounded-lg shadow-md flex flex-col ${project.id}`}
 					>
-						<img src={project.image} alt={project.title} className="w-full h-full min-h-[246px]" />
+						<img src={project.image} alt={project.title} className="w-auto h-[226px] object-cover" />
 						<div className="project-content p-8 pt-4">
-							<div className="">
-								<h2 className="text-xl text-center font-semibold mb-2">{project.title}</h2>
-							</div>
+							<h2 className="text-xl text-center font-semibold mb-2">{project.title}</h2>
 							<p className="text-base text-gray-600 text-center">{project.description}</p>
 							<div className="mt-4 flex flex-wrap justify-center text-base">
 								<a

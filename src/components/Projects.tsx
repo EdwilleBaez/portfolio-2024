@@ -101,7 +101,7 @@ const Projects = () => {
 						key={`project-${project.id}`}
 						className={`badge-container relative overflow-hidden project-card bg-white rounded-lg shadow-md flex flex-col ${project.id}`}
 					>
-						<img src={project.image} alt={project.title} className="w-[426px] h-[246px]" />
+						<img src={project.image} alt={project.title} className="w-full h-full min-h-[246px]" />
 						<div className="project-content p-8 pt-4">
 							<div className="">
 								<h2 className="text-xl text-center font-semibold mb-2">{project.title}</h2>

@@ -22,7 +22,7 @@ const Carousel: React.FC<CarouselProps> = ({ images, initialIndex }) => {
     };
 
     return (
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full md:max-w-[500px] md:max-h-[500px] mx-auto">
             <div className="absolute inset-0 flex">
                 <div
                     className="w-1/2 h-full"
@@ -42,7 +42,7 @@ const Carousel: React.FC<CarouselProps> = ({ images, initialIndex }) => {
             <img
                 src={images[currentIndex]}
                 alt={`Imagen ${currentIndex + 1}`}
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-contain"
             />
             <button
                 onClick={goToPrevious}

@@ -16,7 +16,7 @@ const HeroSection = () => {
 							</h1>
 						</div>
 						<h2 className="text-xl px-3 sm:text-xl lg:text-2xl xl:text-3xl font-light">
-							Dedicada del cine con experiencia en asistencia de producción y maquillaje.
+							Dedicada del cine con experiencia en asistencia de producción y casting.
 						</h2>
 					</div>
 				</div>

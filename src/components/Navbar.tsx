@@ -58,7 +58,7 @@ const Navbar = () => {
 									key={index}
 									href={item.href}
 									onClick={handleClick}
-									className="inline-flex items-center px-2 pt-1 border-b-2 border-transparent text-[12px] tracking-[1px] text-black hover:border-white min-w-max"
+									className="inline-flex items-center px-2 pt-1 border-b-2 border-transparent text-sm tracking-[1px] text-black hover:border-white min-w-max"
 								>
 									{item.label}
 								</a>

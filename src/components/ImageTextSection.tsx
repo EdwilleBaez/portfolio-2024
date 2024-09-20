@@ -6,11 +6,12 @@ interface ImageTextSectionProps {
 	imageUrl: string | string[] // Puede ser un string (una imagen) o un array (carrusel)
 	title: string
 	subtitle: string
-	paragraphIndex: number
 	bgColor: string
+	paragraph: string
 	imagePosition: 'left' | 'right'
 }
 
+// Array de párrafos
 const paragraphs = [
 	{
 		title: 'Experiencia en Maquillaje y Vestuario',
@@ -38,7 +39,7 @@ const paragraphs = [
 			'En este maravilloso proyecto, tuve la oportunidad de trabajar en producción. Trabajar en producciones para conciertos es una experiencia un tanto diferente a trabajar en un metraje, pero desempeñar una función sigue siendo igual de retador, exigente y maravilloso a la vez.'
 	},
 	{
-		title: 'El fin de la historia',
+		title: 'Fin de la historia',
 		paragraph:
 			'En este maravilloso proyecto, tuve la oportunidad de trabajar con grandes talentos como los aquí mencionados. Trabajar en un proyecto con grandes talentos demandó mucho esfuerzo, logrando grandes resultados. La película se encuentra en postproducción.'
 	},
@@ -51,16 +52,26 @@ const paragraphs = [
 		title: 'Entre la arena y la santísima cruz',
 		paragraph:
 		'Es un documental que muestra las corridas de toros realizadas en República Dominicana. Mi trabajo en este metraje como asistente de producción, en un proyecto de crew mínimo, me llevó a crecer y conocer otros departamentos, experiencias que me acompañarán para aplicarlas en futuros proyectos. Este proyecto se encuentra en postproducción.'
+	},
+	{	
+		title: 'Las de Juan Luis Guerra',
+		paragraph:
+			'En este proyecto, fui parte del equipo de vestuario, donde colaboré estrechamente con el director de arte para asegurar que cada atuendo reflejara la esencia del legendario Juan Luis Guerra. Trabajar con un artista de tal calibre no solo demandó una atención meticulosa a los detalles, sino también una creatividad constante para hacer que la vestimenta se integrara perfectamente con la narrativa musical.'
+	},
+	{
+		title: 'La última vez',
+		paragraph:
+		'Como asistente de casting en este proyecto, estuve involucrada en el proceso de selección de actores, ayudando a encontrar los talentos perfectos para cada papel. Fue un reto gratificante ver cómo las elecciones de casting aportaron profundidad a la historia y cómo los actores seleccionados dieron vida a los personajes de manera excepcional.'
 	}
 ]
 
 // Función para renderizar la imagen o el carrusel
 const renderImageOrCarousel = (imageUrl: string | string[]) => {
 	if (typeof imageUrl === 'string') {
-		return <img className="h-full w-screen sm:h-screen sm:w-1/2 object-cover" src={imageUrl} alt="Imagen" />
+		return <img className="h-full w-screen hidden md:block md:h-screen md:w-1/2 object-cover" src={imageUrl} alt="Imagen" />
 	} else {
 		return (
-			<div className="h-full w-screen sm:h-screen sm:w-1/2 object-cover">
+			<div className="md:h-screen flex items-center md:w-1/2 object-cover">
 				<Carousel images={imageUrl} initialIndex={0} />
 			</div>
 		)
@@ -72,18 +83,26 @@ const ImageTextSection: React.FC<ImageTextSectionProps> = ({
 	imageUrl,
 	title,
 	subtitle,
-	paragraphIndex,
 	bgColor,
+	paragraph,
 	imagePosition
 }) => {
+	// Busca el párrafo que coincida con el título
+	const paragraphData = paragraphs.find(p => p.title === paragraph);
+
+	// Si no se encuentra el párrafo, maneja el caso (por ejemplo, renderizando un mensaje de error)
+	if (!paragraphData) {
+		return <p>No se encontró el contenido para el título "{title}".</p>
+	}
+
 	return (
 		<section id={id} className={`flex flex-col-reverse items-center justify-center md:flex-row h-full lg:h-screen ${bgColor}`}>
 			{imagePosition === 'left' && renderImageOrCarousel(imageUrl)}
 			
-			<div className="h-full w-full md:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left p-10">
+			<div className="h-full w-full md:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left py-20 px-10">
 				<h2 className="text-5xl xl:text-5xl font-medium font-raleway">{title}</h2>
 				<h3 className="text-2xl">{subtitle}</h3>
-				<p className="text-xl">{paragraphs[paragraphIndex].paragraph}</p>
+				<p className="text-xl">{paragraphData.paragraph}</p>
 			</div>
 
 			{imagePosition === 'right' && renderImageOrCarousel(imageUrl)}

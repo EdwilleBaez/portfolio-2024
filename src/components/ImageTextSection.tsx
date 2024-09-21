@@ -11,8 +11,17 @@ interface ImageTextSectionProps {
 	imagePosition: 'left' | 'right'
 }
 
-// Array de párrafos
 const paragraphs = [
+	{
+		title: 'Experiencia en Coordinación de Producción',
+		paragraph:
+			'He desempeñado roles fundamentales en la coordinación de producción, supervisando la planificación y ejecución de cada etapa del proyecto. Mi capacidad para adaptarme a situaciones cambiantes, trabajar en equipo y controlar el estrés me ha permitido mantener el proyecto en curso, asegurando que todo funcione de manera eficiente, desde la preproducción hasta la postproducción. He gestionado una variedad de proyectos, desde comerciales hasta largometrajes, optimizando recursos y tiempos para lograr los mejores resultados.'
+	},
+	{
+		title: 'Experiencia en Dirección de Casting',
+		paragraph:
+			'Como directora de casting, he sido responsable de seleccionar el elenco adecuado para cada proyecto. Mi habilidad para comunicar correctamente con directores y productores, así como mi capacidad para innovar en la búsqueda de talento, me han permitido encontrar actores que no solo encajan con los personajes, sino que también aportan una profundidad única a sus interpretaciones. Desde cortometrajes hasta largometrajes, he trabajado en proyectos donde la calidad del casting ha sido crucial para el éxito narrativo y emocional.'
+	},
 	{
 		title: 'Experiencia en Maquillaje y Vestuario',
 		paragraph:
@@ -36,12 +45,12 @@ const paragraphs = [
 	{
 		title: 'Dembow',
 		paragraph:
-			'En este maravilloso proyecto, tuve la oportunidad de trabajar en producción. Trabajar en producciones para conciertos es una experiencia un tanto diferente a trabajar en un metraje, pero desempeñar una función sigue siendo igual de retador, exigente y maravilloso a la vez.'
+		'En este maravilloso proyecto, tuve la oportunidad de trabajar con grandes talentos como los aquí mencionados. Trabajar en un proyecto con grandes talentos demandó mucho esfuerzo, logrando grandes resultados. La película se encuentra en postproducción.'
 	},
 	{
 		title: 'Fin de la historia',
 		paragraph:
-			'En este maravilloso proyecto, tuve la oportunidad de trabajar con grandes talentos como los aquí mencionados. Trabajar en un proyecto con grandes talentos demandó mucho esfuerzo, logrando grandes resultados. La película se encuentra en postproducción.'
+		'En este maravilloso proyecto, tuve la oportunidad de trabajar en producción. Trabajar en producciones para conciertos es una experiencia un tanto diferente a trabajar en un metraje, pero desempeñar una función sigue siendo igual de retador, exigente y maravilloso a la vez.'
 	},
 	{	
 		title: 'El olor de las nubes',
@@ -56,7 +65,7 @@ const paragraphs = [
 	{	
 		title: 'Las de Juan Luis Guerra',
 		paragraph:
-			'En este proyecto, fui parte del equipo de vestuario, donde colaboré estrechamente con el director de arte para asegurar que cada atuendo reflejara la esencia del legendario Juan Luis Guerra. Trabajar con un artista de tal calibre no solo demandó una atención meticulosa a los detalles, sino también una creatividad constante para hacer que la vestimenta se integrara perfectamente con la narrativa musical.'
+			'En este proyecto, fui parte del equipo de vestuario, donde colaboré estrechamente con el director de arte para asegurar que cada atuendo reflejara la esencia de la obra. Trabajar con un artista de tal calibre no solo demandó una atención meticulosa a los detalles, sino también una creatividad constante para hacer que la vestimenta se integrara perfectamente con la narrativa musical.'
 	},
 	{
 		title: 'La última vez',

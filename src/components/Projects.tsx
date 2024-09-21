@@ -7,7 +7,7 @@ const Projects = () => {
 			id: 'entre-arena-y-la-santisima-cruz',
 			title: 'Entre arena y la santísima cruz',
 			subtitle: 'Subtítulo del Proyecto 1',
-			description: 'Proyecto en desarrollo',
+			description: 'Documental',
 			videoLink: 'https://www.youtube.com/watch?v=gGdhnIGIEic&ab_channel=Magu%C3%A1Cinema',
 			image: '/assets/p4/img5.jpeg',
 			badges: ['Astistencia de producción']
@@ -16,7 +16,7 @@ const Projects = () => {
 			id: 'las-de-juan-luis-guerra',
 			title: 'Las de Juan Luis Guerra',
 			subtitle: 'Subtítulo del Proyecto 1',
-			description: 'Proyecto en desarrollo',
+			description: 'Video Musical',
 			videoLink: 'https://www.youtube.com/watch?v=Emm6tJa-yUs&ab_channel=LuisSegura',
 			image: '/assets/proyecto1.png',
 			badges: ['Astistencia de vestuario']
@@ -25,7 +25,7 @@ const Projects = () => {
 			id: 'la-ultima-vez',
 			title: 'La última vez',
 			subtitle: 'Subtítulo del Proyecto 1',
-			description: 'Proyecto en desarrollo',
+			description: 'Video Musical',
 			videoLink: 'https://www.youtube.com/watch?v=l5N64TKCsyw&ab_channel=AljadaquiOficial',
 			image: '/assets/musicales/img2-m2.jpeg',
 			badges: ['Astistencia de casting']
@@ -34,7 +34,7 @@ const Projects = () => {
 			id: 'buenos-negocios',
 			title: 'Buenos negocios',
 			subtitle: 'Subtítulo del Proyecto 1',
-			description: 'Juego interactivo',
+			description: 'Cortometraje',
 			videoLink: 'https://youtu.be/VBp1Qj299JM?si=7WkKaVMSXnMXoI8G',
 			image: '/assets/proyecto2.png',
 			badges: ['Dirección']
@@ -43,7 +43,7 @@ const Projects = () => {
 			id: 'psicosis',
 			title: 'PSICOSIS',
 			subtitle: 'CRUD completo en inglés y español',
-			description: 'CRUD completo en inglés y español',
+			description: 'Cortometraje',
 			videoLink: 'https://www.youtube.com/watch?v=LqmXYSzMt6g&ab_channel=TobyCastillo',
 			image: '/assets/proyecto3.png',
 			badges: ['Dirección']
@@ -52,7 +52,7 @@ const Projects = () => {
 			id: 'spot-publicitario',
 			title: 'Spot publicitario',
 			subtitle: 'Aquí aprendí sobre React Router y Context',
-			description: 'Aquí aprendí sobre React Router y Context',
+			description: 'Comercial',
 			githubLink: 'https://www.youtube.com/watch?v=5yQBTLSWha8&ab_channel=Josu%C3%A9ReyesPresenta',
 			videoLink: 'https://beaty-appointment-manager.netlify.app',
 			image: '/assets/proyecto4.png',
@@ -62,19 +62,28 @@ const Projects = () => {
 			id: 'realidad-virtual',
 			title: 'Realidad virtual',
 			subtitle: 'Mis inicios en la maquetación web',
-			description: 'Mis inicios en la maquetación web',
+			description: 'Cortometraje',
 			videoLink: 'https://www.youtube.com/watch?v=E-F2IHAMX_k&ab_channel=TobyCastillo',
 			image: '/assets/proyecto5.png',
 			badges: ['Dirección', 'Actuación']
 		},
 		{
-			id: 'dashboard',
-			title: 'Dashboard',
+			id: 'caza-mitos',
+			title: 'Caza mitos',
 			subtitle: 'Subtítulo del Proyecto 1',
-			description: 'Mis inicios en la maquetación web',
-			githubLink: 'https://github.com/EdwilleBaez/dark-mode-dashboard',
-			videoLink: 'https://figma-desing.netlify.app',
-			badges: ['HTML', 'SASS']
+			description: 'Cortometraje',
+			videoLink: 'https://www.youtube.com/watch?v=kQrbaohcc4k&ab_channel=ChristopherRodriguezBueno',
+			image: '/assets/caza-mitos.png',
+			badges: ['Actuación']
+		},
+		{
+			id: 'navidad',
+			title: 'Navidad',
+			subtitle: 'Subtítulo del Proyecto 1',
+			description: 'Cortometraje',
+			videoLink: 'https://www.youtube.com/watch?v=yppFjHuiST8&ab_channel=MayelinOta%C3%B1ezGuzman',
+			image: '/assets/navidad.png',
+			badges: ['Actuación']
 		}
 	]
 
@@ -107,14 +116,19 @@ const Projects = () => {
 	}, [])
 
 	const toggleShowProjects = () => {
-		setShowAllProjects(!showAllProjects)
 		const projectsSection = document.getElementById('projects')
-		if (projectsSection) {
-			const offset = -100
+	
+		// Si se colapsan los proyectos (cuando se muestra menos)
+		if (showAllProjects && projectsSection) {
+			const offset = -140
 			const sectionPosition = projectsSection.getBoundingClientRect().top + window.scrollY + offset
-			window.scrollTo({ top: sectionPosition, behavior: 'smooth' })
+			window.scrollTo({ top: sectionPosition })
 		}
+	
+		// Alternar visibilidad de los proyectos
+		setShowAllProjects(!showAllProjects)
 	}
+	
 
 	// Determina la cantidad de proyectos a mostrar según el estado y tamaño de pantalla
 	const visibleProjects = showAllProjects ? myProjects : myProjects.slice(0, projectsToShow)

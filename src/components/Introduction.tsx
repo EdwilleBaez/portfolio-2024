@@ -6,7 +6,7 @@ const Introduction = () => {
 				<h3 className="text-2xl mb-7">¡Es genial tenerte aquí!</h3>
 				<p className="text-xl sm:text-lg px-2 ">
 					Estoy emocionada de compartir experiencias y realizar grandes trabajos contigo. Conóceme un poquito más. Mi
-					madre me nombró Nathaly Cielo Trinidad Jiménez. Soy una profesional multifacética del mundo audiovisual.Mi
+					madre me nombró Nathaly Cielo Trinidad Jiménez. Soy una profesional multifacética del mundo audiovisual. Mi
 					experiencia abarca una amplia gama de proyectos, como largometrajes, cortometrajes con reconocimiento en
 					festivales, comerciales y videos musicales. Estoy ansiosa por continuar contando historias que inspiren y
 					conecten con el público en todo el mundo.

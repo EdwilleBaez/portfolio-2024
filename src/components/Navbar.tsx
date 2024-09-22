@@ -41,7 +41,7 @@ const Navbar = () => {
 			<div className="w-4/6">
 				{scrollDirection === 'up' && (
 					<div className="flex items-center">
-						<p className="text-black p-2 text-lg">Nathaly Trinidad</p>
+						<p className="text-black p-2 text-lg">Nathaly Cielo</p>
 						<HiBriefcase />
 						<PiFilmReelFill />
 					</div>

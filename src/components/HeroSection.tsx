@@ -12,7 +12,7 @@ const HeroSection = () => {
 					<div className="flex flex-col">
 						<div>
 							<h1 className="font-shettricka text-[50px] sm:text-[60px] lg:text-[85px] xl:text-[100px]">
-								Nathaly Trinidad
+								Nathaly Cielo
 							</h1>
 						</div>
 						<h2 className="text-xl px-3 sm:text-xl lg:text-2xl xl:text-3xl font-light">

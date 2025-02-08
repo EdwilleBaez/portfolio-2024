@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { RiExternalLinkFill } from 'react-icons/ri'
-
+// just comented
 const Projects = () => {
 	const myProjects = [
 		{

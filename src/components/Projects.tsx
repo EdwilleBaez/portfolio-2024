@@ -4,13 +4,22 @@ import { RiExternalLinkFill } from 'react-icons/ri'
 const Projects = () => {
 	const myProjects = [
 		{
+			id: 'amor-bonito',
+			title: 'Amor bonito',
+			subtitle: 'Subtítulo del Proyecto 1',
+			description: 'Video Musical',
+			videoLink: 'https://www.youtube.com/watch?v=F9CWDLeKU18',
+			image: '/assets/amor-bonito.png',
+			badges: ['1era. Asistencia de Dirección']
+		},
+		{
 			id: 'entre-arena-y-la-santisima-cruz',
 			title: 'Entre arena y la santísima cruz',
 			subtitle: 'Subtítulo del Proyecto 1',
 			description: 'Documental',
 			videoLink: 'https://www.youtube.com/watch?v=gGdhnIGIEic&ab_channel=Magu%C3%A1Cinema',
 			image: '/assets/p4/img5.jpeg',
-			badges: ['Astistencia de producción']
+			badges: ['Asistencia de producción']
 		},
 		{
 			id: 'las-de-juan-luis-guerra',
@@ -19,7 +28,7 @@ const Projects = () => {
 			description: 'Video Musical',
 			videoLink: 'https://www.youtube.com/watch?v=Emm6tJa-yUs&ab_channel=LuisSegura',
 			image: '/assets/proyecto1.png',
-			badges: ['Astistencia de vestuario']
+			badges: ['Asistencia de vestuario']
 		},
 		{
 			id: 'la-ultima-vez',
@@ -28,7 +37,7 @@ const Projects = () => {
 			description: 'Video Musical',
 			videoLink: 'https://www.youtube.com/watch?v=l5N64TKCsyw&ab_channel=AljadaquiOficial',
 			image: '/assets/musicales/img2-m2.jpeg',
-			badges: ['Astistencia de casting']
+			badges: ['Asistencia de casting']
 		},
 		{
 			id: 'buenos-negocios',
